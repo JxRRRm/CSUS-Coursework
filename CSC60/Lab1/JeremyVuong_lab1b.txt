@@ -1,0 +1,20 @@
+Script started on Wed 09 Feb 2022 04:27:18 PM PST
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab1b[?1034h[jeremyvuong@ecs-pa-coding1 lab1b]$ gcc lab1.c
+gcc: error: lab1.c: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab1b[jeremyvuong@ecs-pa-coding1 lab1b]$ gcc lab1b.c
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab1b[jeremyvuong@ecs-pa-coding1 lab1b]$ ./a.out
+
+Lab 1b. 
+
+Hello World.
+Hi, Jeremy Vuong. 
+
+Today is your opportunity to build the tomorrow you want. 
+- Ken Poirot 
+
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab1b[jeremyvuong@ecs-pa-coding1 lab1b]$ exit
+exit
+
+Script done on Wed 09 Feb 2022 04:28:18 PM PST

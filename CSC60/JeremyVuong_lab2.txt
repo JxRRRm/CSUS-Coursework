@@ -1,0 +1,202 @@
+Script started on Wed 23 Feb 2022 08:53:29 PM PST
+]0;jeremyvuong@ecs-pa-coding1:~[?1034h[jeremyvuong@ecs-pa-coding1 ~]$ history -c
+]0;jeremyvuong@ecs-pa-coding1:~[jeremyvuong@ecs-pa-coding1 ~]$ cd csc60
+]0;jeremyvuong@ecs-pa-coding1:~/csc60[jeremyvuong@ecs-pa-coding1 csc60]$ mkdir lab2
+]0;jeremyvuong@ecs-pa-coding1:~/csc60[jeremyvuong@ecs-pa-coding1 csc60]$ cd lab2
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2[jeremyvuong@ecs-pa-coding1 lab2]$ pwd
+/home/student/jeremyvuong/csc60/lab2
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2[jeremyvuong@ecs-pa-coding1 lab2]$ mkdiraaa[K[K[K aaa
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2[jeremyvuong@ecs-pa-coding1 lab2]$ cd ass[K[Kaa
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2/aaa[jeremyvuong@ecs-pa-coding1 aaa]$ pwd
+/home/student/jeremyvuong/csc60/lab2/aaa
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2/aaa[jeremyvuong@ecs-pa-coding1 aaa]$ cd ..
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2[jeremyvuong@ecs-pa-coding1 lab2]$ pwd
+/home/student/jeremyvuong/csc60/lab2
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2[jeremyvuong@ecs-pa-coding1 lab2]$ ls [K>file1
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2[jeremyvuong@ecs-pa-coding1 lab2]$ cat fo[Kile1
+aaa
+file1
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2[jeremyvuong@ecs-pa-coding1 lab2]$ less file 1[K[K1
+[?1049h[?1h=aaa
+file1
+[7mfile1 (END)[27m[K[K[?1l>[?1049l]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2[jeremyvuong@ecs-pa-coding1 lab2]$ file *
+aaa:   directory
+file1: ASCII text
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2[jeremyvuong@ecs-pa-coding1 lab2]$ wc file1
+ 2  2 10 file1
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2[jeremyvuong@ecs-pa-coding1 lab2]$ wc *
+wc: aaa: Is a directory
+      0       0       0 aaa
+      2       2      10 file1
+      2       2      10 total
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2[jeremyvuong@ecs-pa-coding1 lab2]$ gre lab file1
+bash: gre: command not found
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2[jeremyvuong@ecs-pa-coding1 lab2]$ cp file1 file2
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2[jeremyvuong@ecs-pa-coding1 lab2]$ ls
+[0m[38;5;27maaa[0m  file1  file2
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2[jeremyvuong@ecs-pa-coding1 lab2]$ cd aaa
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2/aaa[jeremyvuong@ecs-pa-coding1 aaa]$ cp ../file1 .
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2/aaa[jeremyvuong@ecs-pa-coding1 aaa]$ ls
+file1
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2/aaa[jeremyvuong@ecs-pa-coding1 aaa]$ mv file1 file2
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2/aaa[jeremyvuong@ecs-pa-coding1 aaa]$ ls
+file2
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2/aaa[jeremyvuong@ecs-pa-coding1 aaa]$ mv ../file1 .
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2/aaa[jeremyvuong@ecs-pa-coding1 aaa]$ cd ..
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2[jeremyvuong@ecs-pa-coding1 lab2]$ ls
+[0m[38;5;27maaa[0m  file2
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2[jeremyvuong@ecs-pa-coding1 lab2]$ cd aaa
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2/aaa[jeremyvuong@ecs-pa-coding1 aaa]$ ls
+file1  file2
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2/aaa[jeremyvuong@ecs-pa-coding1 aaa]$ cmp filr1 file2[K[K[K[K[K[K[K[Ke1 file2
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2/aaa[jeremyvuong@ecs-pa-coding1 aaa]$ ls >aaalist aaalist
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2/aaa[jeremyvuong@ecs-pa-coding1 aaa]$ comp file1 aaalist
+bash: comp: command not found
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2/aaa[jeremyvuong@ecs-pa-coding1 aaa]$ cmp file1 aaalist
+file1 aaalist differ: byte 4, line 1
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2/aaa[jeremyvuong@ecs-pa-coding1 aaa]$ diff file1 aaalist
+1c1
+< aaa
+---
+> aaalist
+2a3
+> file2
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2/aaa[jeremyvuong@ecs-pa-coding1 aaa]$ rm -i file1
+rm: remove regular file ‘file1’? y
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2/aaa[jeremyvuong@ecs-pa-coding1 aaa]$ ls
+aaalist  file2
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2/aaa[jeremyvuong@ecs-pa-coding1 aaa]$ ps u
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+jeremyv+  1400  0.0  0.0 114296   820 pts/50   S+   20:53   0:00 script JeremyVuong_lab2.txt
+jeremyv+  1402  0.0  0.0 114304   396 pts/50   S+   20:53   0:00 script JeremyVuong_lab2.txt
+jeremyv+  1403  0.0  0.0 126252  2140 pts/48   Ss   20:53   0:00 bash -i
+jeremyv+  2730  0.0  0.0 166156  2016 pts/48   R+   21:02   0:00 ps u
+jeremyv+ 31823  0.0  0.0 126252  2120 pts/50   Ss   20:43   0:00 -bash
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2/aaa[jeremyvuong@ecs-pa-coding1 aaa]$ ps -l
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S 810010153 1403 1402  0 80  0 - 31563 do_wai pts/48   00:00:00 bash
+0 R 810010153 2755 1403  0 80  0 - 38332 -      pts/48   00:00:00 ps
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2/aaa[jeremyvuong@ecs-pa-coding1 aaa]$ ll
+total 0
+-rw-r--r-- 1 jeremyvuong domain users 20 Feb 23 21:01 aaalist
+-rw-r--r-- 1 jeremyvuong domain users 10 Feb 23 20:59 file2
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2/aaa[jeremyvuong@ecs-pa-coding1 aaa]$ !!
+ll
+total 0
+-rw-r--r-- 1 jeremyvuong domain users 20 Feb 23 21:01 aaalist
+-rw-r--r-- 1 jeremyvuong domain users 10 Feb 23 20:59 file2
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2/aaa[jeremyvuong@ecs-pa-coding1 aaa]$ cd../..
+bash: cd../..: No such file or directory
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2/aaa[jeremyvuong@ecs-pa-coding1 aaa]$ pwd
+/home/student/jeremyvuong/csc60/lab2/aaa
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab2/aaa[jeremyvuong@ecs-pa-coding1 aaa]$ cd ../..
+]0;jeremyvuong@ecs-pa-coding1:~/csc60[jeremyvuong@ecs-pa-coding1 csc60]$ pwd
+/home/student/jeremyvuong/csc60
+]0;jeremyvuong@ecs-pa-coding1:~/csc60[jeremyvuong@ecs-pa-coding1 csc60]$ cd lab1b
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab1b[jeremyvuong@ecs-pa-coding1 lab1b]$ ls
+[0m[38;5;34ma.out[0m  JeremyVuong_lab1b.txt  lab1b.c
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab1b[jeremyvuong@ecs-pa-coding1 lab1b]$ head lab1b.c
+/*------------------*/
+/* Jeremy Vuong     */
+/* Lab 1b           */
+/* 02/09/2022       */ 
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (void)
+{
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab1b[jeremyvuong@ecs-pa-coding1 lab1b]$ head -20 lab1b.c
+/*------------------*/
+/* Jeremy Vuong     */
+/* Lab 1b           */
+/* 02/09/2022       */ 
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (void)
+{
+    printf("\nLab 1b. \n\n");
+    printf("Hello World.\n");
+    printf("Hi, Jeremy Vuong. \n\n");
+    printf("Today is your opportunity to build the tomorrow you want. \n");
+    printf("- Ken Poirot \n\n");
+    return EXIT_SUCCESS;
+}
+/*------------------*/
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab1b[jeremyvuong@ecs-pa-coding1 lab1b]$ q
+bash: q: command not found
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab1b[jeremyvuong@ecs-pa-coding1 lab1b]$ tail lab1b.c 
+int main (void)
+{
+    printf("\nLab 1b. \n\n");
+    printf("Hello World.\n");
+    printf("Hi, Jeremy Vuong. \n\n");
+    printf("Today is your opportunity to build the tomorrow you want. \n");
+    printf("- Ken Poirot \n\n");
+    return EXIT_SUCCESS;
+}
+/*------------------*/
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab1b[jeremyvuong@ecs-pa-coding1 lab1b]$ ls -al | less
+[?1049h[?1h=total 28
+drwxr-xr-x 2 jeremyvuong domain users 4096 Feb  9 16:27 .
+drwxr-xr-x 4 jeremyvuong domain users 4096 Feb 23 20:54 ..
+-rwxr-xr-x 1 jeremyvuong domain users 8360 Feb  9 16:27 a.out
+-rw-r--r-- 1 jeremyvuong domain users  709 Feb  9 16:28 JeremyVuong_lab1b.txt
+-rw-r--r-- 1 jeremyvuong domain users  409 Feb  9 16:25 lab1b.c
+[7m(END)[27m[K[K[?1l>[?1049l]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab1b[jeremyvuong@ecs-pa-coding1 lab1b]$ history
+    1  2022-02-23 20:53:50 cd csc60
+    2  2022-02-23 20:54:04 mkdir lab2
+    3  2022-02-23 20:54:15 cd lab2
+    4  2022-02-23 20:54:18 pwd
+    5  2022-02-23 20:54:33 mkdir aaa
+    6  2022-02-23 20:55:16 cd aaa
+    7  2022-02-23 20:55:40 pwd
+    8  2022-02-23 20:55:45 cd ..
+    9  2022-02-23 20:55:53 pwd
+   10  2022-02-23 20:56:04 ls>file1
+   11  2022-02-23 20:56:21 cat file1
+   12  2022-02-23 20:56:50 less file1
+   13  2022-02-23 20:57:08 file *
+   14  2022-02-23 20:57:34 wc file1
+   15  2022-02-23 20:57:53 wc *
+   16  2022-02-23 20:58:11 gre lab file1
+   17  2022-02-23 20:58:23 cp file1 file2
+   18  2022-02-23 20:58:30 ls
+   19  2022-02-23 20:58:50 cd aaa
+   20  2022-02-23 20:59:10 cp ../file1 .
+   21  2022-02-23 20:59:18 ls
+   22  2022-02-23 20:59:32 mv file1 file2
+   23  2022-02-23 20:59:45 ls
+   24  2022-02-23 20:59:58 mv ../file1 .
+   25  2022-02-23 21:00:07 cd ..
+   26  2022-02-23 21:00:13 ls
+   27  2022-02-23 21:00:22 cd aaa
+   28  2022-02-23 21:00:26 ls
+   29  2022-02-23 21:00:54 cmp file1 file2
+   30  2022-02-23 21:01:14 ls > aaalist
+   31  2022-02-23 21:01:34 comp file1 aaalist
+   32  2022-02-23 21:02:00 cmp file1 aaalist
+   33  2022-02-23 21:02:13 diff file1 aaalist
+   34  2022-02-23 21:02:30 rm -i file1
+   35  2022-02-23 21:02:51 ls
+   36  2022-02-23 21:02:58 ps u
+   37  2022-02-23 21:03:13 ps -l
+   38  2022-02-23 21:03:19 ll
+   39  2022-02-23 21:03:41 cd../..
+   40  2022-02-23 21:03:48 pwd
+   41  2022-02-23 21:04:11 cd ../..
+   42  2022-02-23 21:04:19 pwd
+   43  2022-02-23 21:04:25 cd lab1b
+   44  2022-02-23 21:04:52 ls
+   45  2022-02-23 21:05:44 head lab1b.c
+   46  2022-02-23 21:06:10 head -20 lab1b.c
+   47  2022-02-23 21:06:21 q
+   48  2022-02-23 21:06:46 tail lab1b.c 
+   49  2022-02-23 21:07:07 ls -al | less
+   50  2022-02-23 21:07:18 history
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab1b[jeremyvuong@ecs-pa-coding1 lab1b]$ exit
+exit
+
+Script done on Wed 23 Feb 2022 09:07:37 PM PST

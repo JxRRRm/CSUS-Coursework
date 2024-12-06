@@ -1,0 +1,57 @@
+Script started on Tue 26 Apr 2022 06:31:28 PM PDT
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab9[?1034h[jeremyvuong@ecs-pa-coding1 lab9]$ touch lab9_[K_10.h
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab9[jeremyvuong@ecs-pa-coding1 lab9]$ make
+gcc -c lab9.c -Wall
+gcc -c ParseCmd.c -Wall
+gcc -o lab9 lab9.o ParseCmd.o -Wall
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab9[jeremyvuong@ecs-pa-coding1 lab9]$ lab[K[K[Kl[K./lab[K[K[K[K[K./[K[Klab9
+bash: lab9: command not found
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab9[jeremyvuong@ecs-pa-coding1 lab9]$ ./lab9
+
+csc60msh> 
+Argc = 0 
+
+csc60msh>  
+Argc = 0 
+
+csc60msh> pwd
+Argc = 1 
+Argv 0 = pwd 
+/home/student/jeremyvuong/csc60/lab9
+
+csc60msh> cd ..
+Argc = 2 
+Argv 0 = cd 
+Argv 1 = .. 
+
+csc60msh> pwd
+Argc = 1 
+Argv 0 = pwd 
+/home/student/jeremyvuong/csc60
+
+csc60msh> cd lab9
+Argc = 2 
+Argv 0 = cd 
+Argv 1 = lab9 
+
+csc60msh> pwd
+Argc = 1 
+Argv 0 = pwd 
+/home/student/jeremyvuong/csc60/lab9
+
+csc60msh> cd
+Argc = 1 
+Argv 0 = cd 
+
+csc60msh> pwd
+Argc = 1 
+Argv 0 = pwd 
+/home/student/jeremyvuong
+
+csc60msh> exit
+Argc = 1 
+Argv 0 = exit 
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab9[jeremyvuong@ecs-pa-coding1 lab9]$ exit
+exit
+
+Script done on Tue 26 Apr 2022 06:33:10 PM PDT

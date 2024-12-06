@@ -1,0 +1,150 @@
+Script started on Thu 19 May 2022 04:34:02 PM PDT
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab10[?1034h[jeremyvuong@ecs-pa-coding1 lab10]$ touch lab9_10.h
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab10[jeremyvuong@ecs-pa-coding1 lab10]$ make
+gcc -c lab10.c -Wall
+gcc -c ParseCmd.c -Wall
+gcc -c RunExtCmd.c -Wall
+gcc -c Redirection.c -Wall
+gcc -c ProcessCmd.c -Wall
+gcc lab10.c ParseCmd.c RunExtCmd.c Redirection.c lab9_10.h ProcessCmd.c -o lab10
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab10[jeremyvuong@ecs-pa-coding1 lab10]$ lab10[K[K[K[K[K./lab10
+
+csc60msh> ls > lsout
+Argc = 3 
+Argv 0 = ls 
+Argv 1 = > 
+Argv 2 = lsout 
+Child returned status: 0
+
+
+csc60msh> cat lsout
+Argc = 2 
+Argv 0 = cat 
+Argv 1 = lsout 
+lab10
+lab10.c
+lab10.o
+lab10.txt
+lab9_10.h
+lsout
+makefile
+ParseCmd.c
+ParseCmd.o
+ProcessCmd.c
+ProcessCmd.o
+Redirection.c
+Redirection.o
+RunExtCmd.c
+RunExtCmd.o
+samples
+wcout
+Child returned status: 0
+
+
+csc60msh> ls > lsout > file1
+Argc = 5 
+Argv 0 = ls 
+Argv 1 = > 
+Argv 2 = lsout 
+Argv 3 = > 
+Argv 4 = file1 
+Cannot output more than one file.
+Child returned status: 256
+
+
+csc60msh> cat foo.txt
+Argc = 2 
+Argv 0 = cat 
+Argv 1 = foo.txt 
+cat: foo.txt: No such file or directory
+Child returned status: 256
+
+
+csc60msh> > ls  out
+Argc = 2 
+Argv 0 = > 
+Argv 1 = lsout 
+No command entered.
+Child returned status: 256
+
+
+csc60msh> < lsout
+Argc = 2 
+Argv 0 = < 
+Argv 1 = lsout 
+No command entered.
+Child returned status: 256
+
+
+csc60msh> wc < lsout
+Argc = 3 
+Argv 0 = wc 
+Argv 1 = < 
+Argv 2 = lsout 
+ 17  17 171
+Child returned status: 0
+
+
+csc60msh> wc < lsout < > sc  wcout
+Argc = 5 
+Argv 0 = wc 
+Argv 1 = < 
+Argv 2 = lsout 
+Argv 3 = > 
+Argv 4 = wcout 
+Child returned status: 0
+
+
+csc60msh> cat wcout
+Argc = 2 
+Argv 0 = cat 
+Argv 1 = wcout 
+ 17  17 171
+Child returned status: 0
+
+
+csc60msh> wc < lsout < wcout
+Argc = 5 
+Argv 0 = wc 
+Argv 1 = < 
+Argv 2 = lsout 
+Argv 3 = < 
+Argv 4 = wcout 
+Cannot input from more than one file.
+Child returned status: 256
+
+
+csc60msh> cd ..lab1b^[[D^[[D^[[D^[[D                     /lab1b
+Argc = 2 
+Argv 0 = cd 
+Argv 1 = ../lab1b 
+
+csc60msh> gcc lab1b.c
+Argc = 2 
+Argv 0 = gcc 
+Argv 1 = lab1b.c 
+Child returned status: 0
+
+
+csc60msh> ./a.out
+Argc = 1 
+Argv 0 = ./a.out 
+
+Lab 1b. 
+
+Hello World.
+Hi, Jeremy Vuong. 
+
+Today is your opportunity to build the tomorrow you want. 
+- Ken Poirot 
+
+Child returned status: 0
+
+
+csc60msh> exit
+Argc = 1 
+Argv 0 = exit 
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab10[jeremyvuong@ecs-pa-coding1 lab10]$ exit
+exit
+
+Script done on Thu 19 May 2022 04:38:56 PM PDT

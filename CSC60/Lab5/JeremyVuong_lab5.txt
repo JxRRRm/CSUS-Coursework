@@ -1,0 +1,26 @@
+Script started on Wed 13 Apr 2022 11:04:54 PM PDT
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab5[?1034h[jeremyvuong@ecs-pa-coding1 lab5]$ touch lab5.h
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab5[jeremyvuong@ecs-pa-coding1 lab5]$ make
+gcc -c lab5.c -lm
+gcc -c compute.c -lm
+gcc -o lab5 lab5.o compute.o -lm
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab5[jeremyvuong@ecs-pa-coding1 lab5]$ lab5
+bash: lab5: command not found
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab5[jeremyvuong@ecs-pa-coding1 lab5]$ ./lab5
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab5[jeremyvuong@ecs-pa-coding1 lab5]$ cat lab5.txt
+
+Jeremy Vuong.  Lab 5. 
+
+ Radius	    Area     Circumference  
+--------  --------  --------------- 
+   3.70     43.01        23.25  
+   6.80    145.27        42.73  
+   4.00     50.27        25.13  
+   5.60     98.52        35.19  
+  12.70    506.71        79.80  
+  45.60   6532.50       286.51  
+
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab5[jeremyvuong@ecs-pa-coding1 lab5]$ [K[jeremyvuong@ecs-pa-coding1 lab5]$ exit
+exit
+
+Script done on Wed 13 Apr 2022 11:08:22 PM PDT

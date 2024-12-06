@@ -1,0 +1,27 @@
+Script started on Fri 04 Mar 2022 04:41:13 PM PST
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab3[?1034h[jeremyvuong@ecs-pa-coding1 lab3]$ exitscript JeremyVuong_lab2.txtman exit[K[1Pwhojobs[2PrmcpEsc -u[1P-uman history[4Pman/history[1Pistoryman scripthistory[5PSEARCHman script[6Pexitman script[4PSEARCHman history[1Pscript[3P/istoryhistory[1Pman manhistory[6PEsc-u -uman cprmjobs[1Pwhoexitscript JeremyVuong_lab2.txtexit[K[Kgcc lab3.c
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab3[jeremyvuong@ecs-pa-coding1 lab3]$ a.out
+bash: a.out: command not found
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab3[jeremyvuong@ecs-pa-coding1 lab3]$ ./a.out
+
+Jeremy Vuong. Lab 3.
+
+Mary went to the store.
+
+My friend is 23 years old
+
+"So many books, so little time."
+- Frank Zappa
+
+The average = 625.3
+
+The average = 625.278
+
+The average = 6.25e+02
+
+The average = 625.277900
+
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab3[jeremyvuong@ecs-pa-coding1 lab3]$ exit
+exit
+
+Script done on Fri 04 Mar 2022 04:41:49 PM PST

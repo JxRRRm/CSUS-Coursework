@@ -1,0 +1,19 @@
+Script started on Tue 08 Mar 2022 09:08:20 PM PST
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab4[?1034h[jeremyvuong@ecs-pa-coding1 lab4]$ gcc lab4.c -lm
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab4[jeremyvuong@ecs-pa-coding1 lab4]$ a[Kgcc lab4.c -lmexit[Kscript JeremyVuong_lab3.txt./a.out[Kgcc lab3.cvim[C[C[C[C[C[C[Cgcc[C[C[C[C[C[C[C[3P./a.outscript JeremyVuong_lab3.txt./a.out[K
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab4[jeremyvuong@ecs-pa-coding1 lab4]$ ./a.outgcc lab4.c -lmexit[Kscript JeremyVuong_lab3.txt./a.out[Kgcc lab3.cvim[C[C[C[C[C[C[C[3P./a.out[2Pclear./a.out[2Pa.out./a.outgcc lab3.cvim[C[C[C[C[C[C[C[3P./a.outgcc lab3.cvim[C[C[C[C[C[C[C[3P./a.outgcc lab3.cvim[C[C[C[C[C[C[C[3P./a.outgcc lab3.cvim[C[C[C[C[C[C[C[3P./a.outgcc lab3.cvim[C[C[C[C[C[C[Cgcc[C[C[C[C[C[C[Cvim[C[C[C[C[C[C[C[3P./a.outgcc lab3.cvim[C[C[C[C[C[C[Cgcc[C[C[C[C[C[C[C[3P./a.outvim lab3.cgcc[C[C[C[C[C[C[Cvim[C[C[C[C[C[C[Cgcc[C[C[C[C[C[C[C[3P./a.outvim lab3.cgcc[C[C[C[C[C[C[C[3P./a.outvim lab3.cgcc[C[C[C[C[C[C[C[3P./a.outvim lab3.cgcc[C[C[C[C[C[C[C[3P./a.outvim lab3.cgcc[C[C[C[C[C[C[C[3P./a.out[2Pa.out./a.out[2Pclear./a.outvim lab3.cgcc[C[C[C[C[C[C[C[3P./a.outscript JeremyVuong_lab3.txtexit[Kgcc lab4.c -lm[7P./a.out[Kcat lab4.txt
+
+Jeremy Vuong.  Lab 4.
+Area & Volume of Cylinders
+
+ Radius    Height      Area      Volume 
+ ------    ------    -------    -------- 
+    3.0       4.0     28.274     113.097 
+    5.0      14.2     78.540    1115.265 
+   10.0       2.0    314.159     628.319 
+    9.0      10.0    254.469    2544.690 
+
+]0;jeremyvuong@ecs-pa-coding1:~/csc60/lab4[jeremyvuong@ecs-pa-coding1 lab4]$ exit
+exit
+
+Script done on Tue 08 Mar 2022 09:09:27 PM PST
