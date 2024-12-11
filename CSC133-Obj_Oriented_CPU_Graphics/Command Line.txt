@@ -1,0 +1,3 @@
+java -cp dist\A2Prj.jar;JavaSE.jar com.codename1.impl.javase.Simulator com.mycompany.a2.Starter
+
+ java --module-path %PATH_TO_JAVAFX_LIB% --add-modules=ALL-MODULE-PATH -cp dist\A4Prj.jar;JavaSE.jar com.codename1.impl.javase.Simulator com.mycompany.a4.Starter
